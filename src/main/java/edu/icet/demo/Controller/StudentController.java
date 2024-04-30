@@ -1,7 +1,7 @@
 package edu.icet.demo.Controller;
 
 import edu.icet.demo.Student;
-import edu.icet.demo.StudentService;
+import edu.icet.demo.Service.StudentService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

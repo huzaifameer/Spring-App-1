@@ -1,4 +1,6 @@
-package edu.icet.demo;
+package edu.icet.demo.Service;
+
+import edu.icet.demo.Student;
 
 public class StudentService {
     public Student getStudent(){
