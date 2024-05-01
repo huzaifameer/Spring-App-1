@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class StudentController {
     @GetMapping("/student")
-    public String getStudent() {
+    public Student getStudent() {
         StudentService service = new StudentService();
         Student student = service.getStudent();
         System.out.println(student);
-        return "Frank";
+        return student;
     }
 
 

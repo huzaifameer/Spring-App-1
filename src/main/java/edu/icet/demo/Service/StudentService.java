@@ -6,8 +6,8 @@ public class StudentService {
     public Student getStudent(){
 
         Student std = new Student();
-        std.setName("30");
-        std.setAge("Frank");
+        std.setName("Huzaifa");
+        std.setAge("22");
 
         Student std2 = new Student("Frank","30");
         return std;
